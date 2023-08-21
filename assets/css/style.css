@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+
+#backgr-image{
+    width: 100%;
+    background: url("../images/background.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh
+}
+
+#logo-image{
+    width: 100%; 
+    background: url("../images/Logo.jpg") no-repeat center center;
+    height: 11vh;
+    background-size: contain;
+}

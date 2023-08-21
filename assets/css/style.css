@@ -20,4 +20,32 @@
     background: url("../images/Logo.jpg") no-repeat center center;
     height: 11vh;
     background-size: contain;
+    background-color: black;
+    display: flex;
 }
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(27, 21, 21, 0.5);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 1%;
+    color: #bec794;
+}
+
+

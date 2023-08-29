@@ -135,4 +135,12 @@ playAgainBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
+function playSound(audioName){
+    let audio = new Audio(audioName);
+    audio.play();
+    audio.loop = true;
+}
+    playSound("Crow.mp3");
+
+
 displayWord();

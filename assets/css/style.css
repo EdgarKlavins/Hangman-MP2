@@ -115,9 +115,18 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: auto;
-    height: 80px;
-    background-color: rgb(61, 61, 59)
+    height: 50px;
+    background-color: rgba(61, 61, 59, 0.4);
+
+}
+
+#Welcome_text {
     
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    font-size: xx-large !important; 
+
 }
 
 .social-networks {
@@ -132,8 +141,8 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    padding: 1%;
-    color: #2c2c2c;
+   
+    color: #0a0a0a;
 }
 
 

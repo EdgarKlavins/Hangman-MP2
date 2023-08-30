@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
       gamecont.style.display = "block" ;
       
       window.addEventListener('keydown', e =>{
-            if(e.keyCode >= 65 && e.keyCode <=90){
-                const letter = e.key;
+        if (/^[a-zA-Z]$/.test(e.key)) {
+            const letter = e.key.toLowerCase();
         
                 if(selectedWord.includes(letter)){
                     if(!correctLetters.includes(letter)){
@@ -33,6 +33,11 @@ document.addEventListener("DOMContentLoaded", function() {
                         showNotification();
                     }
                 }
+            }
+            if (e.key === "a" || e.key === "A") {
+                const logoElement = document.getElementById("logo");
+                logoElement.innerHTML = "Hangman";
+            
             }
         });
         
@@ -107,7 +112,7 @@ function updateWrongLetterE1(){
     if(wrongLetters.length === figureParts.length){
         finalMessage.innerText = 'Unfortunately you lost. 😕';
         popup.style.display = 'flex';
-        console.log("sound should play");
+        
         audio.play();
         
     }

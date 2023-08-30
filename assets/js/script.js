@@ -82,6 +82,7 @@ function displayWord(){
 }
 
 // Update the wrong letters
+const audio = new Audio('/assets/sounds/Crow.mp3');
 function updateWrongLetterE1(){
     //Display wrong letters
     wrongLettersE1.innerHTML = `
@@ -102,9 +103,13 @@ function updateWrongLetterE1(){
     });
 
     //Check if lost
+    
     if(wrongLetters.length === figureParts.length){
         finalMessage.innerText = 'Unfortunately you lost. 😕';
         popup.style.display = 'flex';
+        console.log("sound should play");
+        audio.play();
+        
     }
 }
 
@@ -135,12 +140,13 @@ playAgainBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
-function playSound(audioName){
-    let audio = new Audio(audioName);
-    audio.play();
-    audio.loop = true;
-}
-    playSound("Crow.mp3");
+// function playSound(){
+    const bgs = new Audio('/assets/sounds/background.mp3');
+    bgs.play();
+    bgs.loop = false;
+    bgs.volume = 0.15;
+    
+// }
 
 
 displayWord();

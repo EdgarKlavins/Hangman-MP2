@@ -150,6 +150,20 @@ playAgainBtn.addEventListener('click', () => {
     bgs.play();
     bgs.loop = false;
     bgs.volume = 0.15;
+
+    const soundButton = document.getElementById("soundButton");
+    const sound = document.getElementById("sound");
+
+soundButton.addEventListener("click", function() {
+  if (sound.paused) {
+    sound.play();
+    soundButton.innerHTML = "Sound: On";
+  } else {
+    sound.pause();
+    sound.currentTime = 0;
+    soundButton.innerHTML = "Sound: Off";
+  }
+});
     
 // }
 

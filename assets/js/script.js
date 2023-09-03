@@ -45,21 +45,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   
-function openKeyboardOnMobile() {
-    // Check if the screen width is below a certain threshold (e.g., 768 pixels for typical mobile devices)
-    if (window.innerWidth <= 768) {
-      // Get a reference to the input element
-      var inputElement = document.getElementById("myInput");
+function simulateKeyPress(key) {
+    // Create a new KeyboardEvent with the specified key
+    var event = new KeyboardEvent('keydown', {
+      key: key,
+      code: 'Key' + key,
+      which: key.charCodeAt(0),
+      keyCode: key.charCodeAt(0),
+      charCode: key.charCodeAt(0),
+    });
   
-      // Check if the input element exists
-      if (inputElement) {
-        // Focus on the input element programmatically
-        inputElement.focus();
-      }
-    } else {
-      alert("This feature is for mobile devices only.");
-    }
-  } 
+    // Dispatch the event to the window
+    window.dispatchEvent(event);
+  }
 
 const wordE1 = document.getElementById('word');
 const wrongLettersE1 = document.getElementById('wrong-letters');

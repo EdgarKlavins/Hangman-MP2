@@ -9,7 +9,8 @@ body{
     margin: 0;
     min-height: 100vh;
     background-image: url(../images/background.jpg);
-    background-size: cover;
+    background-size:cover ; 
+    background-repeat: no-repeat;
     font-family: 'Roboto Slab', sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,6 +18,7 @@ body{
     align-items: center;
     font-weight: 500;
     background-color: #BAB3ABff;
+   
     
 }
 
@@ -184,6 +186,11 @@ footer {
     
 }
 
+section {
+    
+    height: auto;
+}
+
 .wrong-letters-container p{
     margin: 0 0 5px;
 }
@@ -297,17 +304,80 @@ footer {
     width: 80%;
     }
 
-    img {
-        width: 80%;
-    }
+    
 
+    body {
+        overflow: hidden;
+    }
 }
 
+@media screen and (max-width: 600px) {
+        .column {
+          
+          width: 90%;
+          column-count: 1;
+        }
+      }
+
+      @media screen and (max-width: 800px){
+        #logo{
+            font-size: 4em;
+            margin-left: 1rem;
+            margin-top: 10px;
+            }
+
+        .social-networks>li {
+            padding-left: 1rem;
+            padding-right: 1rem; 
+        }
+
+        .game_box {
+            margin-left: 1rem;
+            max-height: 400px;
+        }
+
+        .figure-container {
+            margin-left: 2rem;
+
+        }
+
+        #Welcome_text {
+            margin-left: 4rem;
+        }
+
+        .wrong-letters-container p {
+            text-align: center;
+        }
+
+        .popup {
+            margin-right: 2.7rem ;
+            margin-left: 40px;
+        }
+        .wrong-letters-container{
+        text-align: center;
+        margin-right: 5rem;
+        }
+
+        html {
+            height: 100%;
+            overflow-y: scroll;
+          }
+         
+
+        body {
+            overflow: hidden;
+           height: 100% ;
+    }
+      }
 
 
 
+    @media screen and (max-width: 400px) {
+        body {
+            height: 100% ;
+        }
 
-
+    }
 
 
 

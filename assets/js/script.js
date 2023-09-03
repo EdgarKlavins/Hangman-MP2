@@ -56,7 +56,7 @@ const finalMessage = document.getElementById('final-message');
 
 const figureParts= document.querySelectorAll(".figure-part");
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['apple', 'banana', 'chocolate', 'diamond', 'elephant', 'fireworks', 'guitar', 'hamburger', 'island', 'jazz', 'kangaroo', 'lemonade', 'mountain', 'nightmare', 'octopus', 'penguin', 'quilt', 'rainbow', 'strawberry', 'tiger', 'umbrella', 'volcano', 'watermelon', 'xylophone', 'yacht', 'zeppelin', 'dragon', 'robot', 'spider', 'programming', 'interface', 'wizard'];
 
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 

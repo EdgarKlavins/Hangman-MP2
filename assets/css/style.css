@@ -321,7 +321,7 @@ section {
 
       @media screen and (max-width: 800px){
         #logo{
-            font-size: 4em;
+            font-size: 3em;
             margin-left: 1rem;
             margin-top: 10px;
             }
@@ -367,6 +367,11 @@ section {
         body {
             overflow: hidden;
            height: 100% ;
+          }
+
+        li {
+            
+        font-size: medium;
     }
       }
 
@@ -375,6 +380,20 @@ section {
     @media screen and (max-width: 400px) {
         body {
             height: 100% ;
+            
+        }
+
+        #logo{
+            font-size: 2em;
+        }
+
+        li {
+            
+            font-size: medium;
+        }
+
+        .notification-container {
+            bottom: -60px;   
         }
 
     }

@@ -45,7 +45,21 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
   
-
+function openKeyboardOnMobile() {
+    // Check if the screen width is below a certain threshold (e.g., 768 pixels for typical mobile devices)
+    if (window.innerWidth <= 768) {
+      // Get a reference to the input element
+      var inputElement = document.getElementById("myInput");
+  
+      // Check if the input element exists
+      if (inputElement) {
+        // Focus on the input element programmatically
+        inputElement.focus();
+      }
+    } else {
+      alert("This feature is for mobile devices only.");
+    }
+  } 
 
 const wordE1 = document.getElementById('word');
 const wrongLettersE1 = document.getElementById('wrong-letters');

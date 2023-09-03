@@ -69,6 +69,11 @@ color: #fff;
 }
 
 
+#wrong-letters {
+    top: 75px;
+    position: absolute;
+    right: 10px;
+}
 
 
 #game input {
@@ -202,7 +207,6 @@ section {
 .word{
     display: flex;
     position: absolute;
-    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -265,6 +269,9 @@ section {
     transition: transform 0.3s ease-in-out;
 }
 
+#mobileKeyboard {
+text-align: center;
+}
 
 
 .notification-container p{

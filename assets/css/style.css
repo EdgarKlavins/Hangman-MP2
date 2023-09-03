@@ -276,6 +276,8 @@ section {
     transform: translateY(-50px);
 }
 
+
+
 @media screen and (min-width: 1000px) {
 
     #levelchoice-area li:hover{

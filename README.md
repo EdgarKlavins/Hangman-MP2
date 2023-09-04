@@ -207,7 +207,7 @@ The linter <a href="https://jshint.com/">JSHint</a> was used to validate the Jav
 <br>
 
 * third part
-<<br>
+<br>
 <br>
 
 ![js3 page](/docs/js3.png)
@@ -220,8 +220,70 @@ The linter <a href="https://jshint.com/">JSHint</a> was used to validate the Jav
 
 ![js4 page](/docs/js4.png)
 
+<br>
+
 
 ### Accessibility & Performance
 
 The Lighthouse feature on Google Devtools was used to assess accessibility and performance. All pages score high
 
+<br>
+
+
+![js4 page](/docs/lighthouse.png)
+
+
+
+### Browser Compatability
+
+The websites compatability was tested on the following browsers:
+
+* Google Chrome
+* Mozilla Waterfox
+* Microsoft Edge
+* Safari
+
+
+## Bugs & Fixes
+
+* When website accesed from github pages sound is not working properly.
+
+
+## Deployment & Development
+
+The website was deployed using GitHub Pages by following these steps:
+
+1. In the GitHub respository navigate to the Settings tab.
+2. Select Pages from the menu on the left-hand side of the page.
+3. For the source select Branch: 'main' and then select: 'save'.
+4. After the webpage refreshes automatically a ribbon at the top will displays the following message: "Your site is live at https://uriem.github.io/geography-game/"
+
+The website repository can be forked by the following steps:
+
+1. Go to the GitHub repository.
+2. Click on the Fork button in the upper right hand corner.
+
+The repository can be cloned by the following steps:
+
+1. Got to the GitHub repository.
+2. Locade the Code button above the list of files and click on it.
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory.
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+## Credits
+
+### Media
+
+Main background picture was takken from https://unsplash.com
+Sounds used from https://www.epidemicsound.com/
+
+### Code
+
+Resources came from a few sources:
+
+* https://www.freecodecamp.org
+* https://app.slack.com/
+* https://www.youtube.com

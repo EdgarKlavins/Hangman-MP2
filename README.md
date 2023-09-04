@@ -122,6 +122,60 @@ The structure of the initial site will include three section incorporated in the
 
 ![Phone Engame](/docs/Wireframe_phone3.png)
 
+### Features
+
+#### Welcome Section
+
+<
+![Welcome section](/docs/welcome.png) 
+
+
+- Features an input field. The user is required to enter a username to continue. A submit button initiates the next section if a username has been entered. The rules of the game are also diplayed.
+
+
+
+#### Game Section
+
+![Game section](/docs/game.png) 
+
+- Features the nickname displayed at the top of the central content area.
+- Clickable on-screen keyboard element. 
+- A Hangman image
+- Feedback to the user about guessed letters and wrong letters
+- Option to turn sound on or off.
+
+#### End of Game page
+
+![End game section](/docs/endgame.png) 
+- Player is notified, if he lost or won the game
+- Player can choose to play again immediately
+
+
+#### Header
+
+![Header](/docs/header.png)
+
+- The header remains on display at the top of the game throughout a users journey through the game.
+- It tells the user clearly what the content and purpose of the application is.
+- It contains sound on/off button
+- It is interactive and changes when certain requirements are met.
+
+![Header 2](/docs/header2.png)
+
+#### Footer
+
+![Header 2](/docs/footer.png)
+
+- Includes links to the LinkedIn, Facebook, Instagram and Twitter page of the developer.
+- All links open in a new window.
+
+## Testing and Validation
+
+### HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors or warnings. 
+
+
 
 
 

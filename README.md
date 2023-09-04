@@ -177,6 +177,51 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 
 
+![index page](/docs/html.png)
 
 
+### CSS Validation
+
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. The code passed with no errors or warnings.
+
+
+![index page](/docs/css.png)
+
+
+### JavaScript Validation
+
+The linter <a href="https://jshint.com/">JSHint</a> was used to validate the JavaScript files. Unused variable warnings were ignored, as those variables or functions where called/used in either the html files or other JS files. All remaining warnings stem from the JShint configuration and are not related to the code.
+
+* first part
+
+![js1 page](/docs/js1.png)
+<br>
+<br>
+
+* second part
+<br>
+<br>
+
+![js2 page](/docs/js2.png)
+<br>
+<br>
+
+* third part
+<<br>
+<br>
+
+![js3 page](/docs/js3.png)
+<br>
+<br>
+
+* fourth part
+<br>
+<br>
+
+![js4 page](/docs/js4.png)
+
+
+### Accessibility & Performance
+
+The Lighthouse feature on Google Devtools was used to assess accessibility and performance. All pages score high
 

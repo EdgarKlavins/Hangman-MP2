@@ -99,7 +99,7 @@ function displayWord(){
 }
 
 // Update the wrong letters
-const audio = new Audio('assets/sounds/Crow.mp3');
+const audio = new Audio('/assets/sounds/Crow.mp3');
 function updateWrongLetterE1(){
     //Display wrong letters
     wrongLettersE1.innerHTML = `

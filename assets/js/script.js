@@ -166,7 +166,7 @@ playAgainBtn.addEventListener('click', () => {
     const soundButton = document.getElementById("soundButton");
    
 
-soundButton.addEventListener("click" , () => {
+soundButton.addEventListener("click" , function()  {
   if (bgs.paused) {
     bgs.play();
     soundButton.innerHTML = "Sound: On";

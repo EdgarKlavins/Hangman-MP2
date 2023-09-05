@@ -264,8 +264,8 @@ The website repository can be forked by the following steps:
 
 The repository can be cloned by the following steps:
 
-1. Got to the GitHub repository.
-2. Locade the Code button above the list of files and click on it.
+1. Go to the GitHub repository.
+2. Locate the Code button above the list of files and click on it.
 3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
 4. Open Git Bash.
 5. Change the current working directory to the one where you want the cloned directory.
@@ -276,7 +276,7 @@ The repository can be cloned by the following steps:
 
 ### Media
 
-Main background picture was takken from https://unsplash.com
+The main background picture was taken from https://unsplash.com
 Sounds used from https://www.epidemicsound.com/
 
 ### Code

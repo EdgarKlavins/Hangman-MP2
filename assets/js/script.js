@@ -139,7 +139,7 @@ function showNotification(){
     }, 2000);
 }
 
-//Keydown letter press
+
 
 
 //Restart game and play again
@@ -157,7 +157,7 @@ playAgainBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
-// function playSound(){
+function playSound(){
     const bgs = new Audio('assets/sounds/background.mp3');
     bgs.play();
     bgs.loop = true;
@@ -177,7 +177,7 @@ soundButton.addEventListener("click", function() {
   }
 });
     
-// }
+}
 
 
 displayWord();

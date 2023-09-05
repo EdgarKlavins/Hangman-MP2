@@ -158,7 +158,7 @@ playAgainBtn.addEventListener('click', () => {
 });
 
 // function playSound(){
-    const bgs = new Audio('/assets/sounds/background.mp3');
+    const bgs = new Audio('assets/sounds/background.mp3');
     bgs.play();
     bgs.loop = false;
     bgs.volume = 0.15;

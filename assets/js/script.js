@@ -160,7 +160,7 @@ playAgainBtn.addEventListener('click', () => {
 // function playSound(){
     const bgs = new Audio('assets/sounds/background.mp3');
     bgs.play();
-    bgs.loop = false;
+    bgs.loop = true;
     bgs.volume = 0.15;
 
     const soundButton = document.getElementById("soundButton");

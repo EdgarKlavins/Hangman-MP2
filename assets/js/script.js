@@ -157,27 +157,27 @@ playAgainBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
-function playSound(){
+// function playSound(){
     const bgs = new Audio('assets/sounds/background.mp3');
-    bgs.play();
+   
     bgs.loop = true;
     bgs.volume = 0.15;
 
     const soundButton = document.getElementById("soundButton");
-    const sound = document.getElementById("sound");
+   
 
 soundButton.addEventListener("click", function() {
-  if (sound.paused) {
-    sound.play();
+  if (bgs.paused) {
+    bgs.play();
     soundButton.innerHTML = "Sound: On";
   } else {
-    sound.pause();
-    sound.currentTime = 0;
+    bgs.pause();
+    bgs.currentTime = 0;
     soundButton.innerHTML = "Sound: Off";
   }
 });
     
-}
+// }
 
 
 displayWord();

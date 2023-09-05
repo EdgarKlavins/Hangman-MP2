@@ -246,18 +246,17 @@ The website compatibility was tested on the following browsers:
 
 ## Bugs & Fixes
 
-* When website accesed from github pages sound is not working properly.
+* When the website is accessed from GitHub pages sound is not working properly.
 
 
 ## Deployment & Development
 
 The website was deployed using GitHub Pages by following these steps:
 
-1. In the GitHub respository navigate to the Settings tab.
+1. In the GitHub repository navigate to the Settings tab.
 2. Select Pages from the menu on the left-hand side of the page.
 3. For the source select Branch: 'main' and then select: 'save'.
-4. After the webpage refreshes automatically a ribbon at the top will displays the following message: "Your site is live at https://uriem.github.io/geography-game/"
-
+4. After the webpage refreshes automatically a ribbon at the top will display the following message: "Your site is live at https://edgarklavins.github.io/Hangman-MP2/
 The website repository can be forked by the following steps:
 
 1. Go to the GitHub repository.

@@ -126,7 +126,7 @@ The structure of the initial site will include three sections incorporated in th
 
 #### Welcome Section
 
-<
+
 ![Welcome section](/docs/welcome.png) 
 
 

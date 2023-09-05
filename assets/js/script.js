@@ -98,8 +98,8 @@ function displayWord(){
     }
 }
 
-// Update the wrong letters
-const audio = new Audio('/assets/sounds/Crow.mp3');
+
+const crw = new Audio('/assets/sounds/Crow.mp3');
 function updateWrongLetterE1(){
     //Display wrong letters
     wrongLettersE1.innerHTML = `
@@ -125,7 +125,7 @@ function updateWrongLetterE1(){
         finalMessage.innerText = 'Unfortunately you lost. 😕';
         popup.style.display = 'flex';
         
-        audio.play();
+        crw.play();
         
     }
 }

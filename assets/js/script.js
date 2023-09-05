@@ -99,7 +99,7 @@ function displayWord(){
 }
 
 
-const crw = new Audio('/assets/sounds/Crow.mp3');
+const crw = new Audio('assets/sounds/Crow.mp3');
 function updateWrongLetterE1(){
     //Display wrong letters
     wrongLettersE1.innerHTML = `
@@ -158,7 +158,7 @@ playAgainBtn.addEventListener('click', () => {
 });
 
 // function playSound(){
-    const bgs = new Audio('/assets/sounds/background.mp3');
+    const bgs = new Audio('assets/sounds/background.mp3');
    
     bgs.loop = true;
     bgs.volume = 0.15;

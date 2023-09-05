@@ -18,7 +18,7 @@
 
 ## Introduction
 
-The Hangman is a guessing game, testing the users knowledge and vocabulary. Player has to complete the word by picking correct letters. This project was created as a part of milestone project 2 (Bristol college/Code institute) Level 5 Diploma in Web Application Development. 
+The Hangman is a guessing game, that tests the user's knowledge and vocabulary. The player has to complete the word by picking the correct letters. This project was created as a part of milestone project 2 (Bristol College/Code Institute) Level 5 Diploma in Web Application Development. 
 Educational purposes only.
 
 ### History
@@ -270,7 +270,7 @@ The repository can be cloned by the following steps:
 3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
 4. Open Git Bash.
 5. Change the current working directory to the one where you want the cloned directory.
-6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/EdgarKlavins/Hangman-MP2)
 7. Press Enter to create your local clone.
 
 ## Credits

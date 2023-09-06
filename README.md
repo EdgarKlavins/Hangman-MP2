@@ -114,14 +114,14 @@ The structure of the initial site will include three sections incorporated in th
 
 <a href="docs/Wireframe_desktop2.png">Game area</a>
 
-<a href="docs/Wireframe_phone2.png">Game area</a>
+<a href="docs/Wireframe_phone2.png">Game area phone</a>
 
 
 3. **Endgame popup** which congratulates the player and gives the option to play again
 
-<a href="docs/Wireframe_desktop3.png">Game area</a>
+<a href="docs/Wireframe_desktop3.png">End game</a>
 
-<a href="docs/Wireframe_phone3.png">Game area</a>
+<a href="docs/Wireframe_phone3.png">End game phone</a>
 
 
 ### Features

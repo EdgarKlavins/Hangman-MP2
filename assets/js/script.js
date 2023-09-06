@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const username = usernameInput.value;
       console.log("Username:", username);
       gameBox.style.display = "none" ;
-      displayUsername.textContent = "Welcome, " + username + "!" + <br> "Press any key!"; </br>
+      displayUsername.textContent = "Welcome, " + username + "!" 
+      + <br> "Press any key!"; </br>
       gamecont.style.display = "block" ;
       
       window.addEventListener('keydown', e =>{

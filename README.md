@@ -106,21 +106,23 @@ The structure of the initial site will include three sections incorporated in th
 
 1. **Welcome Section** displays the rules of the game and asks the user to input a username in order to proceed to play the game.
 
-![Welcome](/docs/Wireframe_desktop1.png)  
+<a href="docs/Wireframe_desktop1.png">Welcome page</a>
 
-![Phone welcome](/docs/Wireframe_phone.png)
+<a href="docs/Wireframe_phone.png">Welcome page phones</a>
 
 2. **Gaming area** containing the keyboard, and figurine, displayed all guessed wrong letters
 
-![Game](/docs/Wireframe_desktop2.png)
+<a href="docs/Wireframe_desktop2.png">Game area</a>
 
-![Phone Game](/docs/Wireframe_phone2.png)
+<a href="docs/Wireframe_phone2.png">Game area</a>
+
 
 3. **Endgame popup** which congratulates the player and gives the option to play again
 
-![Engame](/docs/Wireframe_desktop3.png)
+<a href="docs/Wireframe_desktop3.png">Game area</a>
 
-![Phone Endgame](/docs/Wireframe_phone3.png)
+<a href="docs/Wireframe_phone3.png">Game area</a>
+
 
 ### Features
 
@@ -168,6 +170,19 @@ The structure of the initial site will include three sections incorporated in th
 
 - Includes links to the LinkedIn, Facebook, Instagram and Twitter pages of the developer.
 - All links open in a new window.
+
+
+### Colour Scheme
+
+
+I have chosen to use rgba(61, 61, 59, 0.4) light grey color for footer and containers with a little bit of opacity, because it blends in nicely in background picture.
+
+
+### Typography
+
+
+The Roboto Slab font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+
 
 ## Testing and Validation
 
@@ -286,3 +301,8 @@ Resources came from a few sources:
 * https://www.freecodecamp.org
 * https://app.slack.com/
 * https://www.youtube.com
+
+
+## Acknowledgements
+
+Thanks to Code institute and Bristol College for their support.

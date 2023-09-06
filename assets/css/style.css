@@ -30,7 +30,10 @@ h1, h2, h3 {
 }
 
     
-    
+ .prkey {
+    color: #ffffff;
+    margin-left: 5px;
+ }   
     
 h1 {
     

@@ -31,8 +31,10 @@ h1, h2, h3 {
 
     
  .prkey {
-    color: #ffffff;
-    margin-left: 5px;
+    
+        margin-left: 20px;
+        color: white;
+    
  }   
     
 h1 {
@@ -73,7 +75,7 @@ color: #fff;
 
 
 #wrong-letters {
-    top: 75px;
+    top: 120px;
     position: absolute;
     right: 10px;
 }

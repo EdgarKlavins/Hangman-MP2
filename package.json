@@ -1,0 +1,17 @@
+{
+  "name": "hangman-mp2",
+  "version": "1.0.0",
+  "description": "## Milestone Project 2",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

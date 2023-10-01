@@ -104,6 +104,7 @@ function displayWord(){
 
 
 const crw = new Audio('assets/sounds/Crow.mp3');
+
 function updateWrongLetterE1(){
     //Display wrong letters
     wrongLettersE1.innerHTML = `
@@ -147,8 +148,9 @@ function showNotification(){
 
 
 //Restart game and play again
+
 playAgainBtn.addEventListener('click', () => {
-    //Empty arrays
+    
     correctLetters.splice(0);
     wrongLetters.splice(0);
 

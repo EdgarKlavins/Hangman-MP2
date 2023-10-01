@@ -41,10 +41,11 @@
     </div>
     
     
-    
+ 
     <div id="game-container">
       <p class ="prkey"> Press any key!</p>
 
+        <!--Added keyboard on the screen, because on mobile platforms keyboard input did not work. Adapted from "https://javascript.info/keyboard-events"--> 
       <div id="mobileKeyboard">
         <button onclick="simulateKeyPress('q')"> Q </button>
         <button onclick="simulateKeyPress('w')"> W </button>
@@ -75,7 +76,9 @@
         <button onclick="simulateKeyPress('n')"> N </button>
         <button onclick="simulateKeyPress('m')"> M </button>
       </div>
-      
+
+
+      <!--Used this tutorial as a guide to create figurine for hangman "https://www.youtube.com/watch?v=dRzhwwXy-Sk&ab_channel=Devression"-->
       <svg height="250" width="200" class="figure-container">
           <!-- Rod -->
           <line x1="60" y1="20" x2="140" y2="20" />

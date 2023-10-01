@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
       displayUsername.textContent = "Welcome, " + username + "!";
       gamecont.style.display = "block" ;
       
-      window.addEventListener('keydown', e =>{
+
+    //  Adapted from "https://javascript.info/keyboard-events"
+      window.addEventListener('keydown', e =>{ 
         if (/^[a-zA-Z]$/.test(e.key)) {
             const letter = e.key.toLowerCase();
         
@@ -34,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                 }
             }
+
+            // This function will change logo, as soon as player presses "a ". 
             if (e.key === "a" || e.key === "A") {
                 const logoElement = document.getElementById("logo");
                 logoElement.innerHTML = "Hangman";
@@ -46,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   
 function simulateKeyPress(key) {
-    // Create a new KeyboardEvent with the specified key
+    // Create a new KeyboardEvent with the specified key.  Adapted from "https://javascript.info/keyboard-events"
     var event = new KeyboardEvent('keydown', {
       key: key,
       code: 'Key' + key,
@@ -157,7 +161,8 @@ playAgainBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 });
 
-// function playSound(){
+// Adapted from this forum "https://stackoverflow.com/questions/9419263/how-to-play-audio"
+
     const bgs = new Audio('assets/sounds/background.mp3');
    
     bgs.loop = true;

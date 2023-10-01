@@ -48,6 +48,8 @@ A version which incorporated hanging imagery was described in a 1902 article in 
 - Google Fonts
 - Font Awesome
 - Photoshop
+- Jest
+
 
 # UX
 
@@ -73,6 +75,8 @@ A version which incorporated hanging imagery was described in a 1902 article in 
 
 As a user, I want to easily understand the main purpose of the website.
 * Website contains logo "Hangman" and information about the game.
+
+[Logo and rules](docs/images/welcome.png)
 
 As a user, I want to view the website and content clearly on any device and resolution.
 * The website has been tested on different devices and evidence has been provided (screenshot, top of the page).
@@ -201,6 +205,23 @@ After making my project aviable to others, a few things were pointed out:
 All recomendations  were tested and taken care of
 
 
+### Jest Manual testing
+
+I have manualy tested 4 main functions, which are crucial for game to run:
+
+* When the game starts it should chose one random word from the array for player to guess. Pass
+* Should dispatch a KeyboardEvent with the specified key, because I have added virtual keyboard for mobile platforms. Pass
+* Should update wrongLettersE1 and figureParts correctly, ass player guesses right or wrong. Pass
+* Should remove the notification after a delay. Pass
+
+<br>
+
+![Jest screenshot](/docs/Jest.png)
+
+
+
+
+
 
 ### HTML Validation
 
@@ -320,6 +341,8 @@ Resources came from a few sources:
 * https://www.freecodecamp.org
 * https://app.slack.com/
 * https://www.youtube.com
+* https://jestjs.io
+
 
 
 ## Acknowledgements

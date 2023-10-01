@@ -76,32 +76,53 @@ A version which incorporated hanging imagery was described in a 1902 article in 
 As a user, I want to easily understand the main purpose of the website.
 * Website contains logo "Hangman" and information about the game.
 
-[Logo and rules](docs/images/welcome.png)
+[Logo and rules](docs/welcome.png)
 
 As a user, I want to view the website and content clearly on any device and resolution.
 * The website has been tested on different devices and evidence has been provided (screenshot, top of the page).
 
 As a user, I want to have instructions on how to play the game so that I can easily understand the rules.
-* There is a short description for those who have never played the game.
+* There is a short description for those who have never played the game. (screenshot, check Logo and rules)
 
 As a user, I want to be able to start a game when I am ready.
 * The game starts as soon as the player enters the nickname.
 
+[Nickname and Submit](docs/Nickname.png)
+
 As a user, I want to see a hangman image appear each time I guess incorrectly.
 * It takes six wrong guesses to complete the hangman image.
+
+[Wrong guess](docs/Firstguess.png)
+
 
 As a user, I want to know whether my guess was successful or not.
 * If the guess was successful it will reveal space in the word, if the guess was wrong, the player will be able to see all wrongly guessed letters, if player has been used already certain letters, a popup will come up and remind it. 
 
+[Popup](docs/popup.png)
+
 As a user, I want a way to start a new game when the current game has ended.
 * Each time the player either loses or wins the "play again" button will be available.
+
+[Play again](docs/Playagain.png)
 
 As a user, I want to have a moment of surprise, when interacting with the game.
 * Each time the player presses "a" key, it will make H_NGM_N logo to change and fill in unknown letters.
 
+[Header](docs/header.png)
+
+<br>
+
+[Header after pressing "A"](docs/header2.png)
+
+
+
+
+
 As a user, I want to see contact information for the site owner in case I want to reach out.
 * Social network icons are all available at any time, located in the footer.
 
+
+[Footer](docs/footer.png)
 
 
 

@@ -98,6 +98,9 @@ As a user, I want to have a moment of surprise, when interacting with the game.
 As a user, I want to see contact information for the site owner in case I want to reach out.
 * Social network icons are all available at any time, located in the footer.
 
+
+
+
 ### Structure
 
 #### Wireframes
@@ -186,6 +189,19 @@ The Roboto Slab font is the main font used throughout the whole website with San
 
 ## Testing and Validation
 
+
+### Peer review 
+
+After making my project aviable to others, a few things were pointed out:
+
+* Letter background was too dark
+* Wrong letter container was coliding with figurine on smaller resolutions
+* " You have already used this letter" text popup, had a bad placement and to bright color
+
+All recomendations  were tested and taken care of
+
+
+
 ### HTML Validation
 
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages passed with no errors or warnings. 
@@ -261,7 +277,10 @@ The website compatibility was tested on the following browsers:
 
 ## Bugs & Fixes
 
-* When the website is accessed from GitHub pages sound is not working properly.
+* When the website is accessed from GitHub pages sound is not working properly. /Fixed, by changing the rout.
+* On mobile platforms keyboard did not activate keydown event. / Fixed by adding small keyboard on the screen.
+* While using capital letters, Hangman game did not register keydown event. /Fixed by adding function, which ignores case sensitive.
+* Currently no known bugs remaining.
 
 
 ## Deployment & Development
